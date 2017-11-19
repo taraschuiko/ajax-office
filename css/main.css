@@ -360,3 +360,29 @@ footer p {
   font-size: 1.15em;
   margin: 0;
 }
+
+
+.in > .available, .out > .available {
+  padding: 2px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  width: 34px;
+  font-size: 10px;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  float: left;
+  margin-right: 10px;
+}
+
+.out p {
+  color: #B9BDC1;
+}
+
+.in > .available {
+  background: #5FCF80;
+}
+
+.out > .available {
+  background: #ED5A5A;
+}
